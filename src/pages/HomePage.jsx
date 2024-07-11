@@ -4,6 +4,7 @@ import TopNavBar from "../components/topnavbar/TopNavBar";
 import Footer from "../components/common/Footer";
 import SideNavBar from "../components/sidenavbar/SideNavBar";
 import ImgCarousel from "../components/carousel/ImgCarousel";
+import MapComponent from "../components/mapcomponent/MapComponent";
 
 function HomePage() {
   return (
@@ -20,7 +21,8 @@ function HomePage() {
             <TopNavBar />
             <div className="pt-5s mx-auto bg-navy-800/10 mb-auto h-full min-h-[84vh] p-2 md:pr-2">
               {/* <Outlet /> */}
-              <ImgCarousel />
+              {/* <ImgCarousel /> */}
+              <MapComponent />
             </div>
             <div className="p-3">
               <Footer />
