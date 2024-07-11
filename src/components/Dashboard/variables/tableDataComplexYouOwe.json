@@ -1,0 +1,32 @@
+[
+  {
+    "name": "You OWE",
+    "person": "Aditya",
+    "amount": "$ 23",
+    "category": "Home 304"
+  },
+  {
+    "name": "You OWE",
+    "person": "Sai Kumar",
+    "amount": "$ 45",
+    "category": "individual"
+  },
+  {
+    "name": "You OWE",
+    "person": "Nidish",
+    "amount": "$ 87",
+    "category": "Villagers"
+  },
+  {
+    "name": "You OWE",
+    "person": "Ram",
+    "amount": "$ 31",
+    "category": "individual"
+  },
+  {
+    "name": "You OWE",
+    "person": "Nitin",
+    "amount": "$ 87",
+    "category": "Villagers"
+  }
+]

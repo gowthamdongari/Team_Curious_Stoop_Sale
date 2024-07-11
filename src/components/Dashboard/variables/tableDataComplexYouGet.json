@@ -1,0 +1,32 @@
+[
+  {
+    "name": "You GET From",
+    "person": "Jaysri",
+    "amount": "$ 23",
+    "category": "Home 304"
+  },
+  {
+    "name": "You GET From",
+    "person": "Pavan",
+    "amount": "$ 45",
+    "category": "individual"
+  },
+  {
+    "name": "You GET From",
+    "person": "Preetham",
+    "amount": "$ 87",
+    "category": "Villagers"
+  },
+  {
+    "name": "You GET From",
+    "person": "Sai Kumar",
+    "amount": "$ 31",
+    "category": "individual"
+  },
+  {
+    "name": "You GET From",
+    "person": "Nitin",
+    "amount": "$ 87",
+    "category": "Villagers"
+  }
+]
