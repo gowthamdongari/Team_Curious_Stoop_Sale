@@ -6,6 +6,7 @@ import SideNavBar from "../components/sidenavbar/SideNavBar";
 import ImgCarousel from "../components/carousel/ImgCarousel";
 import MapComponent from "../components/mapcomponent/MapComponent";
 import { ImageCard } from "../components/carousel/ImageCard";
+import {ImageMapCard} from "../components/carousel/ImageMapCard"
 
 function HomePage() {
   return (
@@ -28,7 +29,7 @@ function HomePage() {
 
               {/* card component */}
 
-              <div className="flex flex-wrap -mx-2">
+              {/* <div className="flex flex-wrap -mx-2">
                 <div className="w-full sm:w-1/2 px-2 mb-4">
                   <ImageCard />
                 </div>
@@ -41,8 +42,9 @@ function HomePage() {
                 <div className="w-full sm:w-1/2 px-2 mb-4">
                   <ImageCard />
                 </div>
-              </div>
-              
+              </div> */}
+
+                <ImageMapCard/>
             </div>
             <div className="p-3">
               <Footer />
