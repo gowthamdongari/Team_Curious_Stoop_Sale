@@ -4,6 +4,7 @@ import TopNavBar from "../components/topnavbar/TopNavBar";
 import Footer from "../components/common/Footer";
 import ImgCarousel from "../components/carousel/ImgCarousel";
 import MapComponent from "../components/mapcomponent/MapComponent";
+import StoopSale from "../components/stoopSale/StoopSale";
 
 function HomePage() {
   return (
