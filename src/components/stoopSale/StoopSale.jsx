@@ -1,5 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import { db, storage } from "../../firebase";
+import { ref, getDownloadURL, uploadBytes } from "firebase/storage";
+import { addDoc, collection } from "firebase/firestore";
 
 const StoopSale = () => {
   const [formData, setFormData] = useState({
@@ -20,8 +23,37 @@ const StoopSale = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    try {
+      const imageUrls = await Promise.all(
+        Array.from(formData.images).map(async (image) => {
+          const imageRef = ref(storage, `images/${image.name}`);
+          await uploadBytes(imageRef, image);
+          const downloadURL = await getDownloadURL(imageRef);
+          return downloadURL;
+        })
+      );
+
+      // Log data to be sent to Firestore
+      const dataToSend = {
+        name: formData.name,
+        title: formData.title,
+        address: formData.address,
+        startDate: new Date(`${formData.startDate}T${formData.startTime}`),
+        endDate: new Date(`${formData.endDate}T${formData.endTime}`),
+        images: imageUrls,
+      };
+      console.log("Data to send to Firestore:", dataToSend);
+
+      // Save form data to Firestore
+      await addDoc(collection(db, "stoop_sales"), dataToSend);
+
+      console.log("Document successfully written!");
+      alert("Data submitted successfully!");
+    } catch (error) {
+      console.log(error, "stooperror");
+    }
     // Handle form submission
     console.log(formData);
   };

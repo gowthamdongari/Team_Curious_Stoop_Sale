@@ -17,8 +17,9 @@ function HomePage() {
           <div className="h-full">
             <div className="pt-5 mx-auto bg-navy-800/10 mb-auto h-full min-h-[84vh] p-2">
               {/* <Outlet /> */}
-              <ImgCarousel />
-              <MapComponent />
+              {/* <ImgCarousel />
+              <MapComponent /> */}
+              <StoopSale />
             </div>
             <div className="p-3">
               <Footer />
