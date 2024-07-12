@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import SignIn from "./components/auth/SignIn";
 import { EventRegistrationForm } from "./components/eventregistration/EventRegister";
 import TopNavBar from "./components/topnavbar/TopNavBar";
+import Testimonial from "./components/testimonial/Testimonial";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             path="/Eventregister"
             element={<EventRegistrationForm />}
           ></Route>
+          <Route path="/testimonial" element={<Testimonial/>}></Route>
         </Routes>
       </div>
     </div>
