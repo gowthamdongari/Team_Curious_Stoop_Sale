@@ -21,8 +21,8 @@ import {
 import 'leaflet/dist/leaflet.css';
 import { motion } from 'framer-motion';
 
-export function ImageMapCard() {
-  const mapCenter = [51.505, -0.09]; // Example coordinates, replace with actual coordinates
+export function ImageMapCard({title,address,mapCenter,imgSrc}) {
+   // Example coordinates, replace with actual coordinates
 
   return (
     <motion.div
@@ -36,14 +36,14 @@ export function ImageMapCard() {
           <div className="w-full lg:w-1/2">
             <CardHeader floated={false} color="blue-gray" className="h-64 lg:h-full p-0 relative">
               <img
-                src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                src={imgSrc}
                 alt="ui/ux review check"
                 className="h-full w-full object-cover rounded-none"
               />
               <div className="absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <Typography variant="h4" color="white" className="font-semibold">
-                  Brooklyn Stoop Sale
+                   {title}
                 </Typography>
               </div>
             </CardHeader>
@@ -51,7 +51,7 @@ export function ImageMapCard() {
           <div className="w-full lg:w-1/2 flex flex-col p-4 bg-gradient-to-b from-white to-gray-100">
             <CardBody className="flex-grow">
               <Typography color="gray" className="mb-3">
-              Join us at a lively Brooklyn stoop sale filled with unique treasures, vintage items, and handmade crafts, Starts on July 12th at 5 PM .
+                  {address}
               </Typography>
               <div className="mt-4">
                 <MapContainer
