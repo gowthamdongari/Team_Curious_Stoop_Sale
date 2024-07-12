@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Screenshot](image-1.png)](https://github.com/gowthamdongari/Team_Curious_Stoop_Sale)
+[![Product Screenshot](image-2.png)](https://github.com/gowthamdongari/Team_Curious_Stoop_Sale)
 
 
 Welcome to the Brooklyn Stoop Sale project, a vibrant and interactive digital invitation designed to capture the essence of a classic Brooklyn neighborhood sale. This project challenges you to create an engaging web page using HTML, CSS, and JavaScript, with optional use of React for added complexity. The goal is to produce an invitation that not only informs but also delights potential attendees with interactive elements such as music, animations, and a dynamic map. The event features a variety of items for sale, including clothes, home goods, shoes, and tchotchkes, all set up on a table and clothing rack in the charming streets of Brooklyn, NY.
@@ -120,43 +120,37 @@ To get a local copy up and running follow these simple steps.
 git clone: https://github.com/gowthamdongari/Team_Curious_Stoop_Sale.git
 ```
 
-### Prerequisites
+<!-- ### Prerequisites
 
 you need to use the software to install them follow these instructions.
 
 * npm
   ```sh
   npm install
-  ```
+  ``` -->
 
-<!-- ### Installation
+### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Follow these steps to install and set up the application._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/gowthamdongari/Team_Curious_Stoop_Sale.git
+
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
+4. npm run dev to start locally
+   ```sh
+   npm run dev
+   ``` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,13 +159,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
+<!-- - [x] Add Changelog
 - [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
     - [ ] Chinese
-    - [ ] Spanish
+    - [ ] Spanish -->
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -209,9 +203,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Gowtham Dongari - [@your_twitter](https://twitter.com/your_username) - gdongari@smu.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+RamaKrishna Aruva - [@your_twitter](https://twitter.com/your_username) - Raruva@smu.edu
+
+Project Link: [https://github.com/gowthamdongari/Team_Curious_Stoop_Sale.git](https://github.com/gowthamdongari/Team_Curious_Stoop_Sale.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,12 +216,12 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+resources used in this project !
 
-* [Choose an Open Source License](https://choosealicense.com)
+<!-- * [Choose an Open Source License](https://choosealicense.com) -->
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+<!-- * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/) -->
+<!-- * [Malven's Grid Cheatsheet](https://grid.malven.co/) -->
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
@@ -237,18 +233,19 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/gowthamdongari/Team_Curious_Stoop_Sale.svg?style=for-the-badge
+[contributors-url]: https://github.com/gowthamdongari/Team_Curious_Stoop_Sale/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/gowthamdongari/Team_Curious_Stoop_Sale.svg?style=for-the-badge
+[forks-url]: https://github.com/gowthamdongari/Team_Curious_Stoop_Sale/network/members
+[stars-shield]: https://img.shields.io/github/stars/gowthamdongari/Team_Curious_Stoop_Sale.svg?style=for-the-badge
+[stars-url]: https://github.com/gowthamdongari/Team_Curious_Stoop_Sale/stargazers
+[issues-shield]: https://img.shields.io/github/issues/gowthamdongari/Team_Curious_Stoop_Sale.svg?style=for-the-badge
+[issues-url]: https://github.com/gowthamdongari/Team_Curious_Stoop_Sale/issues
+[license-shield]: https://img.shields.io/github/license/gowthamdongari/Team_Curious_Stoop_Sale.svg?style=for-the-badge
+[license-url]: https://github.com/gowthamdongari/Team_Curious_Stoop_Sale/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/gowthamdongari/
+
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
