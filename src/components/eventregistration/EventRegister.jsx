@@ -32,7 +32,7 @@ export function EventRegistrationForm() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-4">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-5 mt-2">
       <Card color="white" shadow={true} className="w-full max-w-3xl p-6 rounded-lg">
         <Typography variant="h4" color="blue-gray" className="text-center font-bold">
           Register Sales Event
