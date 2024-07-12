@@ -30,8 +30,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/gowthamdongari/Team_Curious_Stoop_Sale">
+    <img src="./src/assets/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Brooklyn Stoop Sale</h3>
