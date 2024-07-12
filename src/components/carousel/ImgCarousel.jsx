@@ -12,7 +12,7 @@ const ImgCarousel = () => {
       autoPlay={true}
       interval={3000}
       stopOnHover={false}
-      showArrows={false}
+      showArrows={true}
       dynamicHeight={true}
     >
       <div>
