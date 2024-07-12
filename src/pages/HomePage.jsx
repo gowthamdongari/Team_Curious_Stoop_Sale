@@ -5,6 +5,7 @@ import Footer from "../components/common/Footer";
 import SideNavBar from "../components/sidenavbar/SideNavBar";
 import ImgCarousel from "../components/carousel/ImgCarousel";
 import MapComponent from "../components/mapcomponent/MapComponent";
+import { ImageCard } from "../components/carousel/ImageCard";
 
 function HomePage() {
   return (
@@ -22,7 +23,26 @@ function HomePage() {
             <div className="pt-5s mx-auto bg-navy-800/10 mb-auto h-full min-h-[84vh] p-2 md:pr-2">
               {/* <Outlet /> */}
               {/* <ImgCarousel /> */}
-              <MapComponent />
+
+              {/* <MapComponent /> */}
+
+              {/* card component */}
+
+              <div className="flex flex-wrap -mx-2">
+                <div className="w-full sm:w-1/2 px-2 mb-4">
+                  <ImageCard />
+                </div>
+                <div className="w-full sm:w-1/2 px-2 mb-4">
+                  <ImageCard />
+                </div>
+                <div className="w-full sm:w-1/2 px-2 mb-4">
+                  <ImageCard />
+                </div>
+                <div className="w-full sm:w-1/2 px-2 mb-4">
+                  <ImageCard />
+                </div>
+              </div>
+              
             </div>
             <div className="p-3">
               <Footer />
