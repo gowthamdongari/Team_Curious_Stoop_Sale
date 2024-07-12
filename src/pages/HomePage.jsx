@@ -10,7 +10,7 @@ function HomePage() {
         "Join us at a lively Brooklyn stoop sale filled with unique treasures, vintage items, and handmade crafts, Starts on July 12th at 5 PM .",
       mapCenter: [51.505, -0.09],
       imgSrc:
-        "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+       "/images/stoopsale1.jpg",
     },
     {
       title: "Brooklyn Stoop Sale",
@@ -18,7 +18,7 @@ function HomePage() {
         "Join us at a lively Brooklyn stoop sale filled with unique treasures, vintage items, and handmade crafts, Starts on July 12th at 5 PM .",
       mapCenter: [51.505, -0.09],
       imgSrc:
-        "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "/images/stoopsale2.jpg",
     },
     {
       title: "Brooklyn Stoop Sale",
@@ -26,7 +26,7 @@ function HomePage() {
         "Join us at a lively Brooklyn stoop sale filled with unique treasures, vintage items, and handmade crafts, Starts on July 12th at 5 PM .",
       mapCenter: [51.505, -0.09],
       imgSrc:
-        "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "/images/stoopsale3.jpg",
     },
     {
       title: "Brooklyn Stoop Sale",
@@ -34,7 +34,7 @@ function HomePage() {
         "Join us at a lively Brooklyn stoop sale filled with unique treasures, vintage items, and handmade crafts, Starts on July 12th at 5 PM .",
       mapCenter: [51.505, -0.09],
       imgSrc:
-        "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "/images/stoopsale4.jpg",
     },
   ];
   return (
