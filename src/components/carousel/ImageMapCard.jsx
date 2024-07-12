@@ -51,7 +51,7 @@ export function ImageMapCard() {
           <div className="w-full lg:w-1/2 flex flex-col p-4 bg-gradient-to-b from-white to-gray-100">
             <CardBody className="flex-grow">
               <Typography color="gray" className="mb-3">
-                Enter a freshly updated and thoughtfully furnished peaceful home surrounded by ancient trees, stone walls, and open meadows.
+              Join us at a lively Brooklyn stoop sale filled with unique treasures, vintage items, and handmade crafts, Starts on July 12th at 5 PM .
               </Typography>
               <div className="mt-4">
                 <MapContainer
