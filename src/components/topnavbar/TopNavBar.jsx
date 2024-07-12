@@ -32,24 +32,24 @@ function TopNavBar() {
                   >
                     <span>Event Register</span>
                   </Link>
-                  <a
-                    href="#"
-                    className="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out"
+                  <Link
+                    to="/testimonial"
+                    className="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out"
                   >
-                    Testimonials
-                  </a>
+                    <span>Testimonial</span>
+                  </Link>
                   <a
                     href="#"
                     className="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out"
                   >
                     Highlights
                   </a>
-                  <a
+                  {/* <a
                     href="#"
                     className="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out"
                   >
                     Pricing
-                  </a>
+                  </a> */}
                   <a
                     href="#"
                     className="text-white hover:text-yellow-300 px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out"
@@ -105,24 +105,24 @@ function TopNavBar() {
                 <span>Event Register</span>
               </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/testimonial"
                 className="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out"
               >
-                Testimonials
-              </a>
+                <span>Testimonial</span>
+              </Link>
               <a
                 href="#"
                 className="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out"
               >
                 Highlights
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out"
               >
                 Pricing
-              </a>
+              </a> */}
               <a
                 href="#"
                 className="text-white hover:text-yellow-300 block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out"
