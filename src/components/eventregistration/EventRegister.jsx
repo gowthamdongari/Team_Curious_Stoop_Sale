@@ -78,17 +78,24 @@ export function EventRegistrationForm() {
               <Typography variant="h6" color="blue-gray" className="mb-1 font-medium">
                 Map Location
               </Typography>
-              <Input
-                size="lg"
-                placeholder="Map Location URL"
-                name="mapLocation"
-                value={eventDetails.mapLocation}
-                onChange={handleChange}
-                className="!border-t-blue-gray-200 focus:!border-t-gray-900 rounded-lg shadow-md"
-                labelProps={{
-                  className: "before:content-none after:content-none",
-                }}
-              />
+              <div className="relative flex items-center justify-center">
+                <img
+                  src="https://via.placeholder.com/400x200.png?text=Map+Preview"
+                  alt="Map Preview"
+                  className="absolute top-0 left-0 w-full h-full opacity-30"
+                />
+                <Input
+                  size="lg"
+                  placeholder="Map Location URL"
+                  name="mapLocation"
+                  value={eventDetails.mapLocation}
+                  onChange={handleChange}
+                  className="!border-t-blue-gray-200 focus:!border-t-gray-900 rounded-lg shadow-md relative bg-transparent"
+                  labelProps={{
+                    className: "before:content-none after:content-none",
+                  }}
+                />
+              </div>
             </div>
             <div>
               <Typography variant="h6" color="blue-gray" className="mb-1 font-medium">
@@ -110,18 +117,25 @@ export function EventRegistrationForm() {
               <Typography variant="h6" color="blue-gray" className="mb-1 font-medium">
                 Upload Event Pictures
               </Typography>
-              <input
-                type="file"
-                name="pictures"
-                multiple
-                onChange={handleFileChange}
-                className="block w-full text-sm text-gray-500
-                file:mr-4 file:py-2 file:px-4
-                file:rounded-lg file:border-0
-                file:text-sm file:font-semibold
-                file:bg-purple-50 file:text-purple-700
-                hover:file:bg-purple-100 shadow-md"
-              />
+              <div className="relative flex items-center justify-center">
+                <img
+                  src="https://via.placeholder.com/400x200.png?text=Event+Pictures"
+                  alt="Event Pictures"
+                  className="absolute top-0 left-0 w-full h-full opacity-30"
+                />
+                <input
+                  type="file"
+                  name="pictures"
+                  multiple
+                  onChange={handleFileChange}
+                  className="block w-full text-sm text-gray-500
+                  file:mr-4 file:py-2 file:px-4
+                  file:rounded-lg file:border-0
+                  file:text-sm file:font-semibold
+                  file:bg-purple-50 file:text-purple-700
+                  hover:file:bg-purple-100 shadow-md relative bg-transparent"
+                />
+              </div>
             </div>
           </div>
           <Button className="mt-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg hover:shadow-xl transition duration-200" fullWidth type="submit">
