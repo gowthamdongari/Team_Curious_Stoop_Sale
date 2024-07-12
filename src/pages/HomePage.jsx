@@ -4,12 +4,9 @@ import TopNavBar from "../components/topnavbar/TopNavBar";
 import Footer from "../components/common/Footer";
 import ImgCarousel from "../components/carousel/ImgCarousel";
 import MapComponent from "../components/mapcomponent/MapComponent";
-<<<<<<< HEAD
 import StoopSale from "../components/stoopSale/StoopSale";
-=======
 import { ImageCard } from "../components/carousel/ImageCard";
 import {ImageMapCard} from "../components/carousel/ImageMapCard"
->>>>>>> 4a4498350977acd48c70710bdd5c429ce352d1db
 
 function HomePage() {
   return (
