@@ -23,24 +23,24 @@ function HomePage() {
 
               {/* <MapComponent /> */}
 
-              {/* card component */}
+              {/* card component */} 
 
-              {/* <div className="flex flex-wrap -mx-2">
+              <div className="flex flex-wrap -mx-8">
                 <div className="w-full sm:w-1/2 px-2 mb-4">
-                  <ImageCard />
+                  <ImageMapCard />
                 </div>
                 <div className="w-full sm:w-1/2 px-2 mb-4">
-                  <ImageCard />
+                  <ImageMapCard />
                 </div>
                 <div className="w-full sm:w-1/2 px-2 mb-4">
-                  <ImageCard />
+                  <ImageMapCard />
                 </div>
                 <div className="w-full sm:w-1/2 px-2 mb-4">
-                  <ImageCard />
+                  <ImageMapCard />
                 </div>
-              </div> */}
+              </div>
 
-                <ImageMapCard/>
+                 {/* <ImageMapCard/> */}
             </div>
             <div className="p-3">
               <Footer />
