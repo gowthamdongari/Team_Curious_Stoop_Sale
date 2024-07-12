@@ -25,8 +25,9 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
+<div align="center" >
+<h2 align="center">Challenge: 💌 Create an interactive invitation to a Brooklyn Stoop Sale using HTML/CSS/JavaScript. </h2>
+</div>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -78,18 +79,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/gowthamdongari/Team_Curious_Stoop_Sale)
+[![Product Screenshot](image-1.png)](https://github.com/gowthamdongari/Team_Curious_Stoop_Sale)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Welcome to the Brooklyn Stoop Sale project, a vibrant and interactive digital invitation designed to capture the essence of a classic Brooklyn neighborhood sale. This project challenges you to create an engaging web page using HTML, CSS, and JavaScript, with optional use of React for added complexity. The goal is to produce an invitation that not only informs but also delights potential attendees with interactive elements such as music, animations, and a dynamic map. The event features a variety of items for sale, including clothes, home goods, shoes, and tchotchkes, all set up on a table and clothing rack in the charming streets of Brooklyn, NY.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+The project requires a creative approach to interactivity and aesthetics, ensuring that the invitation is shareable and visually appealing. You are encouraged to use modern web development tools and platforms such as Vercel or GitHub Pages for deployment, with the option to leverage Wix Studio for a low-code solution. Essential resources include Google Maps and Mapbox for integrating a location map, as well as comprehensive guides on HTML, CSS, and JavaScript provided by CodeDex. By merging these technologies and resources, you'll create an inviting and dynamic online experience that reflects the unique vibes of a Brooklyn stoop sale.
 
-Use the `BLANK_README.md` to get started.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,16 +94,18 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section has  major frameworks/libraries used  for project. 
 
-* [![Next][Next.js]][Next-url]
+<!-- * [![Next][Next.js]][Next-url] -->
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Material-UI][Material-UI]]
+* [![Tailwind CSS][Tailwind CSS]]
+<!-- * [![Vue][Vue.js]][Vue-url] -->
+<!-- * [![Angular][Angular.io]][Angular-url] -->
+<!-- * [![Svelte][Svelte.dev]][Svelte-url] -->
+<!-- * [![Laravel][Laravel.com]][Laravel-url] -->
+<!-- * [![Bootstrap][Bootstrap.com]][Bootstrap-url] -->
+<!-- * [![JQuery][JQuery.com]][JQuery-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,18 +114,22 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
+To get a local copy up and running follow these simple steps.
+```bash
+git clone: https://github.com/gowthamdongari/Team_Curious_Stoop_Sale.git
+```
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+you need to use the software to install them follow these instructions.
+
 * npm
   ```sh
-  npm install npm@latest -g
+  npm install
   ```
 
-### Installation
+<!-- ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -142,7 +145,7 @@ _Below is an example of how you can instruct your audience on installing and set
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
-   ```
+   ``` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -263,3 +266,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[Material-UI]: https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white
+[Material-UI-url]: https://material-ui.com/
+[Tailwind CSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind CSS-url]: https://tailwindcss.com/
